@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LS2</title>
+	<style>
+		body {
+			text-align: center;
+			margin-top: 100px;
+			height: 600px;
+		}
+		button {
+			margin: 56px 24px;
+			background-color: tomato;
+			cursor: pointer;
+			border: 1px solid maroon;
+			border-radius: 4px;
+		}
+		button[data-value="style2.css"] {
+			background-color: limegreen;
+		}
+	</style>
+	<link rel="stylesheet" href="style1.css" id="changeStyle">
+</head>
+<body>
+	<h1>PAGE!</h1>
+	<button data-value="style1.css" class="style-setter">style1</button>
+	<button data-value="style2.css" class="style-setter">style2</button>
+
+	<script src="script.js"></script>
+</body>
+</html>

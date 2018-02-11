@@ -1,0 +1,8 @@
+body {
+	background: linear-gradient(45deg, red, orange);
+}
+h1 {
+	color: #232323;
+	font-family: 'Times New Roman', serif;
+	text-shadow: 1px 1px 1px #ff0;
+}
